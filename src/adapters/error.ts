@@ -82,7 +82,7 @@ function sanitizeErrorMessage(errorMessage: string): string {
 }
 
 export function parseError(error: unknown): Promise<string> {
-  console.error(error);
+  debugger;
   const unknownError = Promise.resolve(`An unknown error has occurred: ${JSON.stringify(error)}`);
   if (typeof error === "string") {
     return Promise.resolve(error);
