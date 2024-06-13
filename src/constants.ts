@@ -59,7 +59,7 @@ export const GAS_PRICE_INCREASE_PERCENTAGE = 50; // 50%
 export const DEPOSIT_CHECK_WORD = "I understand";
 
 export const ETH_TOKEN_LOGO_URI =
-  "https://raw.githubusercontent.com/Uniswap/interface/main/packages/ui/src/assets/logos/png/ethereum-logo.png";
+  "https://tcp314.com/brand/logo.png";
 
 export const POLYGON_SUPPORT_URL = "https://support.polygon.technology";
 
@@ -116,8 +116,8 @@ export const getChains = ({
       name: getEthereumNetworkName(ethereumNetwork.chainId),
       nativeCurrency: {
         decimals: 18,
-        name: "Ether",
-        symbol: "ETH",
+        name: "BNB",
+        symbol: "BNB",
       },
       networkId: 0,
       poeContractAddress: ethereum.poeContractAddress,
@@ -148,8 +148,8 @@ export const getEtherToken = (chain: Chain): Token => {
     chainId: chain.chainId,
     decimals: 18,
     logoURI: ETH_TOKEN_LOGO_URI,
-    name: "Ether",
-    symbol: "ETH",
+    name: "Tixon",
+    symbol: "TCP",
   };
 };
 

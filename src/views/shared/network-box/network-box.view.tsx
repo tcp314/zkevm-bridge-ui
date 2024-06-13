@@ -2,8 +2,8 @@ import { FC, useState } from "react";
 
 import { parseError } from "src/adapters/error";
 import { ReactComponent as MetaMaskIcon } from "src/assets/icons/metamask.svg";
-import { ReactComponent as NewWindowIcon } from "src/assets/icons/new-window.svg";
-import { POLYGON_SUPPORT_URL } from "src/constants";
+// import { ReactComponent as NewWindowIcon } from "src/assets/icons/new-window.svg";
+// import { POLYGON_SUPPORT_URL } from "src/constants";
 import { useEnvContext } from "src/contexts/env.context";
 import { useErrorContext } from "src/contexts/error.context";
 import { useProvidersContext } from "src/contexts/providers.context";
@@ -113,7 +113,7 @@ export const NetworkBox: FC = () => {
             <MetaMaskIcon className={classes.buttonIcon} />
             Add to MetaMask
           </button>
-          <a
+          {/* <a
             className={classes.button}
             href={POLYGON_SUPPORT_URL}
             rel="noopener noreferrer"
@@ -121,7 +121,7 @@ export const NetworkBox: FC = () => {
           >
             <NewWindowIcon className={classes.buttonIcon} />
             Report an issue
-          </a>
+          </a> */}
         </div>
       </div>
     </Card>
