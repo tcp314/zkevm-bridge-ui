@@ -101,7 +101,7 @@ export const Login: FC = () => {
           onClose={() => setShowPolicyModal(false)}
           onConfirm={onConnectProvider}
           showCancelButton={false}
-          title={`Welcome to the Polygon zkEVM ${deploymentName || ""}`}
+          title={`Welcome to the TixonCash zkEVM ${deploymentName || ""}`}
         />
       )}
     </div>

@@ -1,7 +1,7 @@
 {
 
-  "short_name": "Polygon zkEVM Bridge",
-  "name": "Polygon zkEVM Bridge",
+  "short_name": "TixonCash zkEVM Bridge",
+  "name": "TixonCash zkEVM Bridge",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

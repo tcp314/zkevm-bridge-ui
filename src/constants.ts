@@ -133,8 +133,8 @@ export const getChains = ({
       name: polygonZkEVMNetworkName,
       nativeCurrency: {
         decimals: 18,
-        name: "Ether",
-        symbol: "ETH",
+        name: "Tixon",
+        symbol: "TCP",
       },
       networkId: polygonZkEVM.networkId,
       provider: polygonZkEVMProvider,
