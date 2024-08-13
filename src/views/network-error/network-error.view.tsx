@@ -31,7 +31,7 @@ export const NetworkError: FC = () => {
         <Typography type="body1">
           {parsedProviderError.data === ProviderError.Ethereum
             ? "We cannot connect to the Ethereum node."
-            : "We cannot connect to the TixonCash zkEVM node."}
+            : "We cannot connect to the RevaLink zkEVM node."}
         </Typography>
         <Typography type="body2">It will be operative again soon</Typography>
       </div>

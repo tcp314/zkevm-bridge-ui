@@ -59,7 +59,7 @@ export const GAS_PRICE_INCREASE_PERCENTAGE = 50; // 50%
 export const DEPOSIT_CHECK_WORD = "I understand";
 
 export const ETH_TOKEN_LOGO_URI =
-  "https://tcp314.com/brand/logo.png";
+  "/logo.png";
 
 export const POLYGON_SUPPORT_URL = "https://support.polygon.technology";
 
@@ -133,8 +133,8 @@ export const getChains = ({
       name: polygonZkEVMNetworkName,
       nativeCurrency: {
         decimals: 18,
-        name: "Tixon",
-        symbol: "TCP",
+        name: "RevaLink",
+        symbol: "RWP",
       },
       networkId: polygonZkEVM.networkId,
       provider: polygonZkEVMProvider,
@@ -148,8 +148,8 @@ export const getEtherToken = (chain: Chain): Token => {
     chainId: chain.chainId,
     decimals: 18,
     logoURI: ETH_TOKEN_LOGO_URI,
-    name: "Tixon",
-    symbol: "TCP",
+    name: "RevaLink",
+    symbol: "RWP",
   };
 };
 
