@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Polygon zkEVM Docs
+  - name: RevaLink zkEVM Docs
     url: https://docs.hermez.io
-    about: Official Polygon zkEVM Documentation
+    about: Official RevaLink zkEVM Documentation
   - name: Telegram Group
     url: https://t.me/PolygonHermezChat
-    about: Official Polygon zkEVM Telegram Group
+    about: Official RevaLink zkEVM Telegram Group
   - name: Discord Community
     url: https://discord.gg/0xPolygon
-    about: Official Polygon zkEVM Discord Community
+    about: Official RevaLink zkEVM Discord Community

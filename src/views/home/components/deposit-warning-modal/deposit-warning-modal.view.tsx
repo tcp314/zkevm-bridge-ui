@@ -35,7 +35,7 @@ export const DepositWarningModal: FC<DepositWarningModalProps> = ({
             Warning
           </Typography>
           <Typography className={classes.warningText} type="body1">
-            You are about to transfer tokens using the Polygon zkEVM Mainnet Beta. There are risks
+            You are about to transfer tokens using the RevaLink zkEVM Mainnet Beta. There are risks
             associated with your use of the Mainnet Beta here. You agree to the{" "}
             <ExternalLink href={POLYGON_TERMS_AND_CONDITIONS_URL}>Terms of Use</ExternalLink>,
             including{" "}

@@ -94,7 +94,7 @@ export const Login: FC = () => {
         <ConfirmationModal
           message={
             <Typography type="body1">
-              DISCLAIMER: This version of the Polygon zkEVM will require frequent maintenance and
+              DISCLAIMER: This version of the RevaLink zkEVM will require frequent maintenance and
               may be restarted if upgrades are needed.
             </Typography>
           }

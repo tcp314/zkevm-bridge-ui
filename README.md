@@ -1,7 +1,7 @@
 # zkEVM Bridge UI
 
 The zkEVM Bridge UI provides a simple user interface to bridge ETH and your favorite ERC-20 tokens
-from Ethereum to the Polygon zkEVM and back.
+from Ethereum to the RevaLink zkEVM and back.
 
 ## Development
 
